@@ -28,6 +28,9 @@ All technologies used were supposed to be programmed in a highly asynchronous wa
 
 ### Architecture 2.0
 ---
+
+[imagetxt!](frontend/images/Arch2.png)
+
 A total of 14 nodes were used and I tried using Amabari from Hortonworks for cluster mgmt. 
 
 Other tools include Vagrant & Docker.. (inside processing folder) -- so you need to install Vagrant (>= 1.6) and VirtualBox, then run:
