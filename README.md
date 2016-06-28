@@ -1,1 +1,147 @@
-# reelBid
+# ReelBid
+---
+
+ReelBid is a real time ad bidding / *programmatic* framework, which can be used to bid on website advertisements in real time(100 ms). Currently, it works with openrtb[]-protocol-complaint Ad exchanges like Google Adx, AppNexus Smaato etc. 
+It was a part of [Insight data engineering fellowship](http://insightdatascience.com/).
+
+Please see this for more details: [https://goo.gl/3Bl15V](https://goo.gl/3Bl15V)
+
+### Getting started
+---
+
+(The code is still being uploaded and somewhat incomplete)
+
+What is real time bidding? Simply put, imagine a ebay auction where auction lasts for 100 milliseconds. There's a seller side(SSP) and buying side(DSP). In this case, an AdExchange would be `ebay`, hosting the auction and `ReelBid`[this project] would be the buying side. Depending on the business logic, registered/interested bidders/companies bid for a spot on a webpage for **every user impression** before the page fully loads -- hence, more targeted advertising. To know more, I recommend reading this, this or watch this 60 second video.
+Or check out my slides [here](https://goo.gl/3Bl15V). 
+
+To get started, you need:
+
+
+
+
+
+### Technologies used
+---
+
+All technologies used were supposed to be programmed in a highly asynchronous was the key to make the system more effective. 
+
+
+### Architecture 2.0
+---
+A total of 14 nodes were used and I tried using Amabari from Hortonworks for cluster mgmt. 
+
+Other tools include Vagrant & Docker.. (inside processing folder) -- so you need to install Vagrant (>= 1.6) and VirtualBox, then run:
+
+
+
+### Networking challenges
+---
+
+Q1: How do you handle 2 million hits per second? 
+
+> Sampling! Using Ziggurat Algorithm to sample some random values following gaussian or gamma distribution. Check around slide 10 [here](https://goo.gl/3Bl15V). 
+
+Q2: What strategy were used to accept so many requests per second? 
+
+> There's this interesting paper published in IEEE on Data mining on Scaling RTB which was a good and sole inspiration for this project. Find it [here](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7373421&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7373421).  
+
+
+### Testing
+---
+
+How did I test the system? 
+> I tested the system by creating a mock exchange, which sent random valid(or invalid) bid request on port 12336 and WINS on port 12339. Validation was checked at the receiving side. 
+> Unit testing was done with Smaato Ad Exchange. 
+> I also tried using this [parallec.io](https://github.com/eBay/parallec) to basically DDos attack my system. 
+
+
+### QA
+---
+
+
+### What does a bid request look like? How did I deserialize the object?
+---
+
+A typical `bid request` looks like: 
+
+```
+{
+	"id": "32a69c6ba388f110487f9d1e63f77b22d86e916b",
+	"imp": [{
+		"id": "1",
+		"banner": {
+			"h": 250,
+			"w": 300,
+			"battr": [2, 3],
+			"btype": [1, 3]
+		}
+	}],
+	"site": {
+		"id": "102855",
+		"name": "mashable.com",
+		"domain": "http://www.example.com",
+		"cat": ["IAB15", "IAB15-10"],
+		"page": "http://easy.example.com/easy?cu=13824;cre=mu;target=_blank",
+		"ref": "http://refer+url",
+		"publisher": {
+			"id": "qqwer1234xgfd",
+			"name": "site_name",
+			"domain": "my.site.com"
+		}
+	},
+	"device": {
+		"ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.13  (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2",
+		"ip": "192.168.5.5",
+		"geo": {
+			"lat": 37.789,
+			"lon": -122.394,
+			"country": "USA",
+			"city": "San Francisco",
+			"region": "CA",
+			"zip": "94105",
+			"type": 2
+		}
+	},
+	"user": {
+		"buyeruid": "89776897686798fwe87rtryt8976fsd7869678",
+		"id": "55816b39711f9b5acf3b90e313ed29e51665623f",
+		"gender": "M",
+		"yob": 1975,
+		"customdata": "Data-asdfdwerewr",
+		"data": [{
+			"id": "pub-demographics",
+			"name": "data_name",
+			"segment": [{
+				"id": "345qw245wfrtgwertrt56765wert",
+				"name": "segment_name",
+				"value": "segment_value"
+			}]
+		}]
+	}
+}
+
+```
+and Bid Response which ReelBid sends back to some Ad exchange includes the id and the `price`.
+
+
+openRTB is the standard protocol used in real time bidding. I'm using 2.2 version with nodejs, which you can find on npm.
+
+
+
+List of major adexchanges: AppNexus, google AdX, Facebook 
+
+
+### Contribution
+---
+
+
+### Contact
+---
+
+I have no absolutely no background in advertisement or real time bidding. If I made a mistake or something does not make sense, please let me know. Feel free to reach me at: mudituppal247[at]gmail[dot]com
+
+
+
+
+
+

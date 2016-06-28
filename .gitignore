@@ -1,3 +1,6 @@
 mudit-uppal.pem
 mudit-uppal-access-keys.txt
 *.pdf
+textbook/
+tests/pegasus
+misc-ignore/*

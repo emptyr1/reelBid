@@ -1,0 +1,5 @@
+1. https://www.kaggle.com/c/avazu-ctr-prediction/data?train.gz
+
+2. http://data.computational-advertising.org/
+
+3. 

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Reelbid</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="container">
+            <div class="title">
+                <h1>ReelBid</h1>
+            </div>
+            <div id="content">
+                <form method="post" action="{{ url_for('hello') }}">
+                  <label for="yourname">Enter segment for people you'd like to target:</label>
+                  <input type="text" name="yourname" /><br />
+
+                  <label for="youremail">Enter you budget:($10K - $50K)</label>
+                  <input type="text" name="youremail" /><br />
+		
+		<label for="location">Location preference? Enter location: </label>
+		<input type="text" name="location" /> <br />
+		
+		<label for="gender"> Gender Preference? Male/Female/No Preference </label>
+		<input type="text" name="gender" /><br />
+
+                  <input type="submit" />
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+ 

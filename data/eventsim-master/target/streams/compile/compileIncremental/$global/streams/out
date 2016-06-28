@@ -1,0 +1,197 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/State.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/User.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Counters.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Session.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomUserAgentGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/KafkaOutputStream.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomFirstNameGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/config/ConfigFromFile.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/UserProperties.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomSongGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomLocationGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/WeightedRandomThingGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Utilities/SimilarSongParser.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/DeviceProperties.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomLastNameGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Utilities/TrackListenCount.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Constants.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/GenericGenerator.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/State.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/User.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Counters.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Session.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomUserAgentGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/KafkaOutputStream.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomFirstNameGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/config/ConfigFromFile.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/UserProperties.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomSongGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomLocationGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/WeightedRandomThingGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Utilities/SimilarSongParser.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/DeviceProperties.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomLastNameGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Utilities/TrackListenCount.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Constants.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/GenericGenerator.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/State.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/User.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Counters.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Session.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomUserAgentGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/KafkaOutputStream.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomFirstNameGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/config/ConfigFromFile.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/UserProperties.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomSongGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomLocationGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/WeightedRandomThingGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Utilities/SimilarSongParser.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/DeviceProperties.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/RandomLastNameGenerator.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Utilities/TrackListenCount.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Constants.scala, /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/GenericGenerator.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 20 sources: invalidated sources (20) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 20 Scala sources to /Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.11:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.11:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 18b1afdb, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes:/Users/mudy/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/target/scala-2.10/classes:/Users/mudy/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.5.jar:/Users/mudy/.ivy2/cache/de.jollyday/jollyday/jars/jollyday-0.5.1.jar:/Users/mudy/.ivy2/cache/org.threeten/threeten-extra/jars/threeten-extra-0.9.jar:/Users/mudy/.ivy2/cache/javax.xml.bind/jaxb-api/jars/jaxb-api-2.2.7.jar:/Users/mudy/.ivy2/cache/org.rogach/scallop_2.10/jars/scallop_2.10-0.9.5.jar:/Users/mudy/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.3.jar:/Users/mudy/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.6.1.jar:/Users/mudy/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.6.1.jar:/Users/mudy/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.6.0.jar:/Users/mudy/.ivy2/cache/org.apache.kafka/kafka_2.10/jars/kafka_2.10-0.8.2.1.jar:/Users/mudy/.ivy2/cache/com.yammer.metrics/metrics-core/jars/metrics-core-2.2.0.jar:/Users/mudy/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-0.8.2.1.jar:/Users/mudy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.6.jar:/Users/mudy/.ivy2/cache/net.jpountz.lz4/lz4/jars/lz4-1.2.0.jar:/Users/mudy/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.1.6.jar:/Users/mudy/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.4.6.jar:/Users/mudy/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.6.1.jar:/Users/mudy/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.16.jar:/Users/mudy/.ivy2/cache/jline/jline/jars/jline-0.9.94.jar:/Users/mudy/.ivy2/cache/junit/junit/jars/junit-3.8.1.jar:/Users/mudy/.ivy2/cache/io.netty/netty/bundles/netty-3.7.0.Final.jar:/Users/mudy/.ivy2/cache/net.sf.jopt-simple/jopt-simple/jars/jopt-simple-3.2.jar:/Users/mudy/.ivy2/cache/com.101tec/zkclient/jars/zkclient-0.3.jar[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:4: object time is not a member of package java[0m
+[0m[[31merror[0m] [0mimport java.time.temporal.ChronoUnit[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:5: object time is not a member of package java[0m
+[0m[[31merror[0m] [0mimport java.time.{Duration, LocalDateTime, ZoneOffset}[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:38: not found: value LocalDateTime[0m
+[0m[[31merror[0m] [0mError occurred in an application involving default arguments.[0m
+[0m[[31merror[0m] [0m        required = false, default = Option(LocalDateTime.now().minus(14, ChronoUnit.DAYS).toString))[0m
+[0m[[31merror[0m] [0m                                           ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:42: not found: value LocalDateTime[0m
+[0m[[31merror[0m] [0mError occurred in an application involving default arguments.[0m
+[0m[[31merror[0m] [0m        required = false, default = Option(LocalDateTime.now().minus(7, ChronoUnit.DAYS).toString))[0m
+[0m[[31merror[0m] [0m                                           ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:84: not found: value LocalDateTime[0m
+[0m[[31merror[0m] [0m    LocalDateTime.parse(ConfFromOptions.startTimeArg())[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:86: not found: value LocalDateTime[0m
+[0m[[31merror[0m] [0m    LocalDateTime.parse(ConfigFromFile.startDate.get)[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:88: not found: value LocalDateTime[0m
+[0m[[31merror[0m] [0m    LocalDateTime.now().minus(ConfFromOptions.from(), ChronoUnit.DAYS)[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:92: not found: value LocalDateTime[0m
+[0m[[31merror[0m] [0m    LocalDateTime.parse(ConfFromOptions.endTimeArg())[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:94: not found: value LocalDateTime[0m
+[0m[[31merror[0m] [0m    LocalDateTime.parse(ConfigFromFile.endDate.get)[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:96: not found: value LocalDateTime[0m
+[0m[[31merror[0m] [0m    LocalDateTime.now().minus(ConfFromOptions.to(), ChronoUnit.DAYS)[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/User.scala:4: object time is not a member of package java[0m
+[0m[[31merror[0m] [0mimport java.time.{ZoneOffset, LocalDateTime}[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/User.scala:13: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m           val startTime: LocalDateTime,[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/UserProperties.scala:3: object time is not a member of package java[0m
+[0m[[31merror[0m] [0mimport java.time.{ZoneOffset, LocalDateTime}[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/buildin/UserProperties.scala:30: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def randomNewProps(dt: LocalDateTime) =[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:178: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m    def showProgress(n: LocalDateTime, users: Int, e: Int): Unit = {[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:198: not found: value LocalDateTime[0m
+[0m[[31merror[0m] [0m        val now = LocalDateTime.now()[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Main.scala:199: not found: value Duration[0m
+[0m[[31merror[0m] [0m        val dif = Duration.between(now, clock)[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Session.scala:3: object time is not a member of package java[0m
+[0m[[31merror[0m] [0mimport java.time.LocalDateTime[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Session.scala:12: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0mclass Session(var nextEventTimeStamp: Option[LocalDateTime],[0m
+[0m[[31merror[0m] [0m                                             ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Session.scala:72: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m   ): LocalDateTime = {[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Session.scala:69: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def pickFirstTimeStamp(st: LocalDateTime,[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Session.scala:25: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  var currentSongEnd:Option[LocalDateTime] =[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Session.scala:82: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def pickNextSessionStartTime(lastTimeStamp: LocalDateTime, beta: Double): LocalDateTime = {[0m
+[0m[[31merror[0m] [0m                                                                            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Session.scala:82: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def pickNextSessionStartTime(lastTimeStamp: LocalDateTime, beta: Double): LocalDateTime = {[0m
+[0m[[31merror[0m] [0m                                              ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/Session.scala:84: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m    val nextTimestamp: LocalDateTime = TimeUtilities.standardWarp(lastTimeStamp.plusSeconds(randomGap))[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:4: object time is not a member of package java[0m
+[0m[[31merror[0m] [0mimport java.time.{DayOfWeek, Duration, LocalDateTime, LocalDate}[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:121: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def standardWarp(ts: LocalDateTime) = ts.plusSeconds(warpOffset(ts, THREE_AM, ConfigFromFile.damping))[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:36: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def weekendDamping(dt: LocalDateTime) = {[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:25: not found: type LocalDate[0m
+[0m[[31merror[0m] [0m  def isWeekendOrHoliday(ld: LocalDate): Boolean = isWeekend(ld) || isHoliday(ld)[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:24: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def isWeekendOrHoliday(i: LocalDateTime): Boolean = isWeekendOrHoliday(LocalDate.from(i))[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:58: not found: value Duration[0m
+[0m[[31merror[0m] [0m            Duration.between(nextMidnightMinusOffset, dt).toMillis / 60000 / ConfigFromFile.weekendDampingScale[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:66: not found: value Duration[0m
+[0m[[31merror[0m] [0m            Duration.between(dt, lastMidnightPlusOffset).toMillis / 60000 / ConfigFromFile.weekendDampingScale[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:75: not found: value Duration[0m
+[0m[[31merror[0m] [0m            Duration.between(lastMidnightMinusOffset, dt).toMillis / 60000 / ConfigFromFile.weekendDampingScale[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:78: not found: value Duration[0m
+[0m[[31merror[0m] [0m            Duration.between(dt, nextMidnightPlusOffset).toMillis / 60000 / ConfigFromFile.weekendDampingScale[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:86: not found: value Duration[0m
+[0m[[31merror[0m] [0m            Duration.between(lastMidnightMinusOffset, dt).toMillis / 60000 / ConfigFromFile.weekendDampingScale[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:94: not found: value Duration[0m
+[0m[[31merror[0m] [0m            Duration.between(dt, lastMidnightPlusOffset).toMillis / 60000 / ConfigFromFile.weekendDampingScale[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:97: not found: value Duration[0m
+[0m[[31merror[0m] [0m            Duration.between(nextMidnightMinusOffset, dt).toMillis / 60000 / ConfigFromFile.weekendDampingScale[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:106: not found: value Duration[0m
+[0m[[31merror[0m] [0m            Duration.between(dt, nextMidnightPlusOffset).toMillis / 60000 / ConfigFromFile.weekendDampingScale[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:112: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def keepThisDate(lastTs: LocalDateTime, newTs: LocalDateTime) =[0m
+[0m[[31merror[0m] [0m                                                 ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:112: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def keepThisDate(lastTs: LocalDateTime, newTs: LocalDateTime) =[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:3: object time is not a member of package java[0m
+[0m[[31merror[0m] [0mimport java.time.temporal.{ChronoField, ChronoUnit}[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[33mwarn[0m] [0mClass java.time.LocalDate not found - continuing with a stub.[0m
+[0m[[33mwarn[0m] [0mClass java.time.LocalDate not found - continuing with a stub.[0m
+[0m[[33mwarn[0m] [0mClass java.time.LocalDate not found - continuing with a stub.[0m
+[0m[[33mwarn[0m] [0mClass java.time.LocalDate not found - continuing with a stub.[0m
+[0m[[33mwarn[0m] [0mClass java.time.LocalDate not found - continuing with a stub.[0m
+[0m[[33mwarn[0m] [0mClass java.time.LocalDate not found - continuing with a stub.[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:17: not found: type LocalDate[0m
+[0m[[31merror[0m] [0m  def isHoliday(ld: LocalDate): Boolean = holidays.isHoliday(ld)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0mClass java.time.LocalDate not found - continuing with a stub.[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:19: not found: type LocalDate[0m
+[0m[[31merror[0m] [0m  def isWeekend(ld: LocalDate): Boolean = {[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:24: not found: value LocalDate[0m
+[0m[[31merror[0m] [0m  def isWeekendOrHoliday(i: LocalDateTime): Boolean = isWeekendOrHoliday(LocalDate.from(i))[0m
+[0m[[31merror[0m] [0m                                                                         ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:115: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def warpOffset(ts:LocalDateTime, offsetSeconds: Long, dampingFactor: Double): Int = {[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:120: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def standardOffset(ts: LocalDateTime) = warpOffset(ts, THREE_AM, ConfigFromFile.damping)[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:123: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def reverseWarpOffset(ts: LocalDateTime, offsetSeconds: Long, dampingFactor: Double) = {[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/TimeUtilities.scala:128: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def reverseStandardWarp(ts: LocalDateTime) = ts.minusSeconds(reverseWarpOffset(ts, THREE_AM, ConfigFromFile.damping))[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/User.scala:30: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m      case (_: Some[LocalDateTime], None) => -1[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/User.scala:31: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m      case (None, _: Some[LocalDateTime]) => 1[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/User.scala:32: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m      case (thatValue: Some[LocalDateTime], thisValue: Some[LocalDateTime]) =>[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/User.scala:32: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m      case (thatValue: Some[LocalDateTime], thisValue: Some[LocalDateTime]) =>[0m
+[0m[[31merror[0m] [0m                                                            ^[0m
+[0m[[31merror[0m] [0m/Users/mudy/programming/2016/_INSIGHT_DE/data/eventsim-master/src/main/scala/com/interana/eventsim/User.scala:124: not found: type LocalDateTime[0m
+[0m[[31merror[0m] [0m  def tsToString(ts: LocalDateTime) = ts.toString()[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[33mwarn[0m] [0m6 warnings found[0m
+[0m[[31merror[0m] [0m54 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

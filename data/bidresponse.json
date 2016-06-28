@@ -1,0 +1,41 @@
+{
+    "id": "eb85349d-03c3-44f4-a77b-824f7221d116",
+    "seatbid": [{
+        "bid": [{
+            "id": "bid1",
+            "impid": "eb85349d-03c3-44f4-a77b-824f7221d116",
+            "price": 0.1,
+            "adm": "<div>Ad Creative</div>",
+            "adomain": [
+                "http://www.example.com/clickthrough"
+            ],
+            "crid": "crid_value",
+            "nurl": "http://example.com/winnotice?impid={AUCTION_IMP_ID}&auction=${AUCTION_ID}&price=${AUCTION_PRICE}&bidid=${AUCTON_BID_ID}"&bidcur=${AUCTION_CURRENCY}",
+            "ext": {
+                "brand_id": "brand_val",
+                "buyer_id": "buyer_val",
+            }
+        }]
+    }]
+}
+
+{
+    "id": "eb85349d-03c3-44f4-a77b-824f7221d116",
+    "seatbid": [{
+        "bid": [{
+            "id": "32a69c6ba388f110487f9d1e63f77b22d86e916b",
+            "impid": "eb85349d-03c3-44f4-a77b-824f7221d116",
+            "price": 0.60000,
+            "adid": "529833ce55314b19e8796116",
+            "nurl": "http://example.com/win/529833ce55314b19e8796116?won=${AUCTION_PRICE}&impid={AUCTION_IMP_ID}&auction=${AUCTION_ID}&bidid=${AUCTON_BID_ID}",
+            "adm": "<iframe src=\"http://example.com/render/529833ce55314b19e8796116\" width=\"300\" height=\"250\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" topmargin=\"0\" leftmargin=\"0\"></iframe>",
+            "adomain": [
+                "openx.ads.com"
+            ],
+            "cid": "529833ce55314b19e8796116",
+            "crid": "529833ce55314b19e8796116_1385706446"
+        }],
+        "seat": "772"
+    }],
+    "cur": "USD"
+}
