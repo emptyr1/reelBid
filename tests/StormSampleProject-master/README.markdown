@@ -1,7 +1,7 @@
 # Storm Sample Project #
 
 This is a set of projects for demonstrating and testing Storm and Kafka by
-performing Twitter sentiment analysis.
+performing system analysis.
 
 ## License ##
 
