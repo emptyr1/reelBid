@@ -141,7 +141,7 @@ List of major adexchanges: AppNexus, google AdX, Facebook
 ### Contact
 ---
 
-I have no absolutely no background in advertisement or real time bidding. If I made a mistake or something does not make sense, please let me know. Feel free to reach me at: mudituppal247[at]gmail[dot]com
+I have absolutely no background in advertisement or real time bidding. If I made a mistake or something does not make sense, please let me know. Feel free to reach me at: mudituppal247[at]gmail[dot]com
 
 
 
