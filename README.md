@@ -35,6 +35,11 @@ A total of 14 nodes were used and I tried using Amabari from Hortonworks for clu
 
 Other tools include Vagrant & Docker.. (inside processing folder) -- so you need to install Vagrant (>= 1.6) and VirtualBox, then run:
 
+![imagetxt2](https://github.com/modqhx/reelBid/blob/master/frontend/images/frontend_form.png)
+![imagetxt3](https://github.com/modqhx/reelBid/blob/master/frontend/images/dashbrd1.png)
+![imagetxt4](https://github.com/modqhx/reelBid/blob/master/frontend/images/bids.png)
+
+
 
 
 ### Networking challenges
