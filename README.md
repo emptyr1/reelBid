@@ -11,7 +11,7 @@ Please see this for more details: [https://goo.gl/3Bl15V](https://goo.gl/3Bl15V)
 
 (The code is still being uploaded and somewhat incomplete)
 
-What is real time bidding? Simply put, imagine a ebay auction where auction lasts for 100 milliseconds. There's a seller side(SSP) and buying side(DSP). In this case, an AdExchange would be `ebay`, hosting the auction and `ReelBid`[this project] would be the buying side. Depending on the business logic, registered/interested bidders/companies bid for a spot on a webpage for **every user impression** before the page fully loads -- hence, more targeted advertising. To know more, I recommend reading this, this or watch this 60 second video.
+What is real time bidding? Simply put, imagine a ebay auction where auction lasts for 100 milliseconds. There's a seller side(SSP) and buying side(DSP). In this case, an AdExchange would be `ebay`, hosting the auction and `ReelBid`[this project] would be the buying side, used by any advertiser. Depending on the business logic, registered/interested bidders/companies bid for a spot on a webpage for **every user impression** before the page fully loads -- hence, more targeted advertising. To know more, I recommend reading this, this or watch this 60 second video. (Remember you are bidding on every user impression on that website)
 Or check out my slides [here](https://goo.gl/3Bl15V). 
 
 To get started, you need:
