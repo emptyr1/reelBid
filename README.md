@@ -20,10 +20,10 @@ To get started, you need:
 
 
 
-### Technologies used
+### Methods & Technologies used to acheive high throughput
 ---
 
-All technologies used were supposed to be programmed in a highly asynchronous was the key to make the system more effective. 
+Apart from moving away from python to Java, sll technologies used were supposed to be programmed in a highly asynchronous -- was the key to make the system more effective. The clients (and ideally should) use non-blocking IO to implement request pipelining and achieve higher throughput. i.e., clients can send requests even while awaiting responses for preceding requests since the outstanding requests will be buffered in the underlying OS socket buffer.
 
 
 ### Architecture 2.0
