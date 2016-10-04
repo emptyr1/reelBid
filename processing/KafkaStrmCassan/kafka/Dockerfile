@@ -1,7 +1,5 @@
 FROM ubuntu:trusty
 
-MAINTAINER Anton Khramov <anton@endocode.com>
-
 RUN apt-get update && apt-get dist-upgrade -y
 RUN apt-get install -y tar openjdk-7-jre-headless wget
 
