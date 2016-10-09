@@ -42,16 +42,21 @@ Other tools include Vagrant & Docker.. (inside processing folder) -- so you need
 
 
 
-### Networking challenges
+### Analysis and Networking challenges
 ---
 
-Q1: How do you handle 2 million hits per second? 
+Q1: Why use redshift and what analysis is being done? 
+
+> We are bidding on online ads based on probablistic models. We would like to know anything about what are paying for ads at this moment -not just how much I have spent in the past hour, but what percent of ads have I spent more than a penny on, for example. Or what's the 90th or 5th percentile- which involves alot of aggregations and groupings, and relational db seemed like a good choice for this. Redshift being an OLAP is pretty fast and support extremely large data sizes. 
+
+Q2: How do you handle 2 million hits per second? 
 
 > Sampling! Using Ziggurat Algorithm to sample some random values following gaussian or gamma distribution. Check around slide 10 [here](https://goo.gl/3Bl15V). 
 
-Q2: What strategy were used to accept so many requests per second? 
+Q3: What strategy were used to accept so many requests per second? 
 
 > There's this interesting paper published in IEEE on Data mining on Scaling RTB which was a good and sole inspiration for this project. Find it [here](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7373421&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7373421).  
+
 
 
 ### Testing
@@ -146,7 +151,7 @@ List of major adexchanges: AppNexus, google AdX, Facebook
 ### Contact
 ---
 
-I have absolutely no background in advertisement or real time bidding. If I made a mistake or something does not make sense, please let me know. Feel free to reach me at: mudituppal247[at]gmail[dot]com
+I do not have alot of background in advertisement or real time bidding. If I made a mistake or something does not make sense, please let me know. Feel free to reach me at: mudituppal247[at]gmail[dot]com
 
 
 
