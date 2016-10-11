@@ -51,7 +51,7 @@ Q1: Why use redshift and what analysis is being done?
 
 Q2: How do you handle 2 million hits per second? 
 
-> Sampling! Using Ziggurat Algorithm to sample some random values following gaussian or gamma distribution. Check around slide 10 [here](https://goo.gl/3Bl15V). 
+> Sampling! Using Ziggurat Algorithm to sample some random values following gaussian or gamma distribution. Check around slide 10 [here](https://goo.gl/3Bl15V). Reservoir sampling or VIRB's(Variable incoming rate biased samplers) are another good techniques being used in the industry. Check out this [video](https://www.youtube.com/watch?v=s_Za9GlD0ek) and my [recent post](https://medium.com/@muppal) on medium.  
 
 Q3: What strategy were used to accept so many requests per second? 
 
