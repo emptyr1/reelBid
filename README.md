@@ -4,7 +4,7 @@
 ReelBid is a real time ad bidding / *programmatic* framework, which can be used to bid on website advertisements in real time(100 ms). Currently, it works with openrtb[]-protocol-complaint Ad exchanges like Google Adx, AppNexus Smaato etc. 
 It was a part of [Insight data engineering fellowship](http://insightdatascience.com/).
 
-Please see this for more details: [https://goo.gl/3Bl15V](https://goo.gl/3Bl15V)
+Find related slides for more details: [https://goo.gl/3Bl15V](https://goo.gl/3Bl15V)
 
 ### Getting started
 ---
