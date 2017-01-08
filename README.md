@@ -75,6 +75,7 @@ How did I test the system?
 
 ### What does a bid request look like? How did I deserialize the object?
 ---
+![imagetxt](https://github.com/modqhx/reelBid/blob/master/frontend/images/page_view.png)
 
 A typical `bid request` looks like: 
 
