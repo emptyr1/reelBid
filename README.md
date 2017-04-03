@@ -23,7 +23,7 @@ To get started, you need:
 ### Methods & Technologies used to acheive high throughput
 ---
 
-All technologies used were supposed to be programmed in a highly asynchronous -- the key to make the system more effective and acheive sub-second latency. The clients (and ideally should) use non-blocking IO to implement request pipelining and achieve higher throughput. i.e., clients can send requests even while awaiting responses for preceding requests since the outstanding requests will be buffered in the underlying OS socket buffer.
+All technologies used were supposed to be programmed in a highly asynchronous + using probabilistic data structures like Bloom filter and Hyperloglog -- the key to make the system more effective and acheive sub-second latency. The clients (and ideally should) use non-blocking IO to implement request pipelining and achieve higher throughput. i.e., clients can send requests even while awaiting responses for preceding requests since the outstanding requests will be buffered in the underlying OS socket buffer.
 (Java did not turn out to be the best language for this, due to global lock because of Java garbage collection. Go/golang would have been perfect for this and would be my next step)
 
 
